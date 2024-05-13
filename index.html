@@ -13,21 +13,26 @@
     <p>title_id</p>
     <p>Name</p>
     <p>------</p>
+
     <h3>Composer</h3>
     <p>comp_id</p>
     <p>Name</p>
     <p>title_id</p>
     <p>------</p>
+
     <h3>Genre</h3>
-    <p>genre_id_id</p>
+    <p>genre_id</p>
     <p>Name</p>
     <p>title_id</p>
+    <p>pri_id</p>
     <p>------</p>
+
     <h3>Priority</h3>
-    <p>pri_id_id</p>
+    <p>pri_id</p>
     <p>Name</p>
-    <p>title_id</p>
+    <p>genre_id</p>
     <p>------</p>
+
     <h3>Difficulty</h3>
     <p>diff_id</p>
     <p>Description</p>
@@ -35,9 +40,32 @@
     <p>Musical Key</p>
     <p>title_id</p>
     <p>prof_id</p>
+    <p>------</p>
+
     <h3>Proficiency</h3>
     <p>prof_id</p>
     <p>Description</p>
+    <p>------</p>
+    
+    <H1>Mysql connection to local host</H1>
+    <h3>From website Digital Ocean Create New User and grant Privilages</h3>
+    <p>Commands in Terminal</p>
+    <ul>
+        <li>Install Mysql</li>
+        <li>sudo mysql</li>
+        <li>CREATE USER 'roco44'@'localhost' IDENTIFIED WITH mysql_native_password BY 'Glucklicher_0rt';</li>
+        <li>GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'roco44'@'localhost' WITH GRANT OPTION;</li>
+        <li>FLUSH PRIVILEGES;</li>
+        <li>SHOW GRANTS FOR 'roco44'@'localhost';</li>
+        <li>+--------------------------------------------------------------------------------------------------------------------------------+</li>
+        <li>| Grants for roco44@localhost                                                                                                    |</li>
+        <li>+--------------------------------------------------------------------------------------------------------------------------------+</li>
+        <li>| GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, RELOAD, REFERENCES, ALTER ON *.* TO `roco44`@`localhost` WITH GRANT OPTION |</li>
+        <li>+--------------------------------------------------------------------------------------------------------------------------------+</li>
+        <li>1 row in set (0.00 sec)</li>
+        <li>exit</li>    
+    </ul>
+    
 
 </body>
 </html>

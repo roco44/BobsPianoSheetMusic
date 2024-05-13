@@ -1,0 +1,4 @@
+CREATE TABLE Title (
+    title_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+    title VARCHAR(255)
+    ) ENGINE = InnoDB;
