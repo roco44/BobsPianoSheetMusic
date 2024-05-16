@@ -6,3 +6,4 @@ MySql DB containing my piano sheet music and showing level of playing ability
 "Add instruction to index to add user and grant privelages, Created db Sheetmusic but errors adding tables !*!"
 "Revise and gather mysql stuff May 2024"
 "Add tables Composer Genre Priority Title and values - Yeah!"
+"Final table Proficiency still to add, others working ok"

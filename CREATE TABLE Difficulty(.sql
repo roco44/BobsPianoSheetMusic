@@ -1,0 +1,12 @@
+CREATE TABLE Difficulty(
+diff_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+difficulty VARCHAR(255),
+numberofbars INTEGER,
+musicalkey VARCHAR(255),
+title_id INTEGER,
+
+INDEX USING BTREE (difficulty),
+CONSTRAINT FOREIGN KEY (title_id)
+REFERENCES Title (title_id)
+ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE = InnoDB;
