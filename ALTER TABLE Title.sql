@@ -1,0 +1,2 @@
+ALTER TABLE Title
+Add year INTEGER; 

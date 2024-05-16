@@ -1,4 +1,10 @@
-CREATE TABLE Title (
-    title_id INTEGER NOT NULL AUTO_INCREMENT KEY,
-    title VARCHAR(255)
-    ) ENGINE = InnoDB;
+CREATE TABLE Composer(
+    comp_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+    composer VARCHAR(255),
+    title_id INTEGER,
+
+    INDEX USING BTREE (composer),
+    CONSTRAINT FOREIGN KEY (title_id)
+    REFERENCES Title (title_id)
+    ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE = InnoDB;
