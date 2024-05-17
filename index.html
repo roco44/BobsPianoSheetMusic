@@ -11,27 +11,47 @@
     <h1>Layout of Database (Bob's Piano Sheet Music)</h1>
     <h3>Title</h3>
     <p>title_id</p>
-    <p>Name</p>
+    <p>Name</p>         
     <p>------</p>
+    <h3>Values:</h3>
+    <p>Name of piece of music</p>
 
     <h3>Composer</h3>
     <p>comp_id</p>
     <p>Name</p>
     <p>title_id</p>
     <p>------</p>
-
+    <h3>Values:</h3>
+    <ul>
+        <li>Name of the composer</li>
+        <li>Year published</li>
+    </ul>
+        
     <h3>Genre</h3>
     <p>genre_id</p>
     <p>Name</p>
     <p>title_id</p>
     <p>pri_id</p>
     <p>------</p>
+    <h3>Values:</h3>
+    <ul>
+        <li>Practise piece</li>
+        <li>Jazz</li>
+        <li>Classical</li>
+        <li>Other</li>
+    </ul>
 
     <h3>Priority</h3>
     <p>pri_id</p>
     <p>Name</p>
     <p>genre_id</p>
     <p>------</p>
+    <h3>Values:</h3>
+    <ul>
+        <li>Top</li>
+        <li>Middle</li>
+        <li>Last</li>
+    </ul>
 
     <h3>Difficulty</h3>
     <p>diff_id</p>
@@ -41,11 +61,25 @@
     <p>title_id</p>
     <p>prof_id</p>
     <p>------</p>
+    <h3>Values:</h3>
+    <ul>
+        <li>Beginner</li>
+        <li>Easier arrangement</li>
+        <li>Original</li>
+    </ul>
 
     <h3>Proficiency</h3>
     <p>prof_id</p>
     <p>Description</p>
     <p>------</p>
+    <h3>Values:</h3>
+    <ul>
+        <li>Learning</li>
+        <li>Mistakes, reading music</li>
+        <li>Well, reading music</li>
+        <li>Mistakes, not reading music</li>
+        <li>Well, not reading music<</li>
+    </ul>
     
     <H1>Mysql connection to local host</H1>
     <h3>From website Digital Ocean Create New User and grant Privilages</h3>

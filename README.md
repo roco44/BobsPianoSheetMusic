@@ -7,3 +7,4 @@ MySql DB containing my piano sheet music and showing level of playing ability
 "Revise and gather mysql stuff May 2024"
 "Add tables Composer Genre Priority Title and values - Yeah!"
 "Final table Proficiency still to add, others working ok"
+"All tables added and working, Add table value descriopions to index need tidyng with CSS"
