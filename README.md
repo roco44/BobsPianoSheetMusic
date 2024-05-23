@@ -9,3 +9,4 @@ MySql DB containing my piano sheet music and showing level of playing ability
 "Final table Proficiency still to add, others working ok"
 "All tables added and working, Add table value descriopions to index need tidyng with CSS"
 "Added insert values info to index page but no nes CSS yet"
+"Inserted first three E Sartie pieces and retrieved OK"

@@ -1,3 +1,3 @@
 INSERT INTO Priority
 (priority , genre_id)
-VALUES ('Medium', 1);
+VALUES ('Medium', 3);
